@@ -9,7 +9,8 @@ RUN curl -O $INSTALL_SCRPT_URL && \
 
 RUN yum install -y \
    racket.aarch64 \
-   xorg-x11-server-Xvfb.aarch64
+   xorg-x11-server-Xvfb.aarch64 \
+   chez-scheme.aarch64
 RUN yum clean all
 
 RUN raco setup

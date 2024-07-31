@@ -6,5 +6,6 @@ Apple Silicon Mac 向けの Racket 用 Devcontainer 設定ファイル
 
 ## その他
 
-- LSP サポート
-- EOPL パッケージがインストール済み
+- LSP
+- EOPL パッケージ
+- ChezScheme
